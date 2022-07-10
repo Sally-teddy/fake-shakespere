@@ -1,6 +1,5 @@
 # fake-shakespere
-# fake shakespeare
 
-# in this assignment, you will create a program that talks like Shakespeare! you’ll do this using a natural language processing technique called “N-gram Language Modeling.” to parse and model Shakespeare’s writing you will use a new datastructure – HashMap<T,U>.
+# シェイクスピア
 
-# download shakespeare.txt, which contains the complete works of William Shakespeare. save it to your program’s directory, next to your project files. you will need to read the entire file (you can edit it in advance to remove all of the extra stuff from Project Gutenberg) and split it up into an array of words. once you have an array of all the words Shakespeare ever wrote, it is time to analyze the text. the goal is to figure out, for each word, which words follow it with what probability. more precisely, given some word (like “thou”), you should know how many times any other word (“hast”, “dost”, “knowest”) occurred immediately after it. to store this information, you will use HashMaps. at the top level, you will have an analysis, which is a HashMap. the key of the map is a word (String and the value is a WordCount, a class you will write shortly that stores statistics on the number of times different words appear. for example, analysis.get(‘‘the’’) would contain a WordCount counting the number of times each word in the text appeared immediately following the word “the”.
+# シェイクスピアのほぼ全書籍のテキストデータをもとに、１つ言葉を打つと、その後に高確率でシェイクスピアが書くであろう言葉を次々とアウトプットするプログラムです。言葉の数はプログラム内で固定にしてあります。
