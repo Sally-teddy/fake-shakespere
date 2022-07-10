@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=u18p01_fake_shakespeare_yamagata_sari
+comment0.text=\r\n\ \ u18p01_fake_shakespeare_yamagata_sari\ is\ the\ root\ class\ of\ a\ solution\ to\ a\ programming\ problem.\ this\ class\ should\r\n\ \ contain\ only\ calls\ to\ System.out\ and\ methods\ of\ other\ classes.\ it\ should\ not\ contain\r\n\ \ a\ significant\ amount\ of\ other\ coding.\r\n\ \r\n\ \ @author\ \ (your\ name)\r\n\ \ @version\ February\ 19,\ 2022,\ 10\:24\:20\ AM\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
